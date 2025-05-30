@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
     plugins: [vue(), vueDevTools(), tailwindcss()],
     build: {
-        outDir: './deploy',
+        outDir: './docs',
         emptyOutDir: true,
     },
     resolve: {
